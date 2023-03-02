@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tech-test-goit/static/css/main.e00c9383.css",
+    "main.js": "/tech-test-goit/static/js/main.47561123.js",
+    "static/js/787.97fac2e5.chunk.js": "/tech-test-goit/static/js/787.97fac2e5.chunk.js",
+    "static/media/logo.svg": "/tech-test-goit/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/tech-test-goit/index.html",
+    "main.e00c9383.css.map": "/tech-test-goit/static/css/main.e00c9383.css.map",
+    "main.47561123.js.map": "/tech-test-goit/static/js/main.47561123.js.map",
+    "787.97fac2e5.chunk.js.map": "/tech-test-goit/static/js/787.97fac2e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e00c9383.css",
+    "static/js/main.47561123.js"
+  ]
+}
