@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user": "Elon Reeve Musk",
+      "tweets": 777,
+      "followers": 100500,
+      "avatar": "https://res.cloudinary.com/dyaylbzox/image/upload/v1677780585/TechTestGoIT/Hansel_drkeuf.png"
+    }
+  ],
+  "awatar": {
+    "logo": "https://res.cloudinary.com/dyaylbzox/image/upload/v1677783966/TechTestGoIT/goit-logo_wvvwbd.png",
+    "picture": "https: //res.cloudinary.com/dyaylbzox/image/upload/v1677780127/TechTestGoIT/picture2in1_tqf2wb.png",
+    "border": "https://res.cloudinary.com/dyaylbzox/image/upload/v1677787277/TechTestGoIT/border_hxfmlb.png"
+  }
+}
