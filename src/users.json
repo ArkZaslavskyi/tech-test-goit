@@ -6,11 +6,20 @@
       "tweets": 777,
       "followers": 100500,
       "avatar": "https://res.cloudinary.com/dyaylbzox/image/upload/v1677780585/TechTestGoIT/Hansel_drkeuf.png"
+    },
+    {
+      "id": 2,
+      "user": "Jennifer Justine Musk",
+      "tweets": 555,
+      "followers": 30030,
+      "avatar": "https://res.cloudinary.com/dyaylbzox/image/upload/v1677887144/TechTestGoIT/Avatar-woman_nxfh7r.png"
+    },
+    {
+      "id": 3,
+      "user": "Kimbal Reeve Musk",
+      "tweets": 488,
+      "followers": 4755,
+      "avatar": "https://res.cloudinary.com/dyaylbzox/image/upload/v1677887946/TechTestGoIT/Cartoon-Avatar-man2_adsgj1.png"
     }
-  ],
-  "awatar": {
-    "logo": "https://res.cloudinary.com/dyaylbzox/image/upload/v1677783966/TechTestGoIT/goit-logo_wvvwbd.png",
-    "picture": "https: //res.cloudinary.com/dyaylbzox/image/upload/v1677780127/TechTestGoIT/picture2in1_tqf2wb.png",
-    "border": "https://res.cloudinary.com/dyaylbzox/image/upload/v1677787277/TechTestGoIT/border_hxfmlb.png"
-  }
+  ]
 }

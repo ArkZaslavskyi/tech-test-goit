@@ -1,35 +1,29 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { Avatar, AvatarWrapper, FollowButton, Line, Logo, Picture, Text, ContentWrapper, UserWrapper } from "./User.styled";
 
-const User = ({ logo, picture, border, user }) => {
-  console.log(user);
-  const [follow, setFollow] = useState(false);
+const User = ({user, onClickButton}) => {
+  const { tweets, followers, avatar, follow } = user;
 
-  const handleClick = () => {
-    setFollow(!follow);
-  }
+  const normalizeFollowers = new Intl.NumberFormat("en-US").format(followers);
 
-  const { tweets, followers } = user;
   return (
-    <>
-      <UserWrapper>
-        <Logo logoImg={logo}  />
-        <Picture picture={picture} />
-        <Line />
-        <Avatar userImg={user.avatar} />
-        <AvatarWrapper border={border} />
-        <ContentWrapper>
-          <Text>
-            {tweets}&nbsp;TWEETS
-          </Text>
-          <Text>
-            100,500&nbsp;FOLLOWERS
-          </Text>
-        <FollowButton type="button" following={follow} onClick={handleClick} >
-          {follow ? 'FOLLOWING' : 'FOLLOW'}</FollowButton>
-        </ContentWrapper>
-      </UserWrapper>
-    </>
+    <UserWrapper>
+      <Logo />
+      <Picture />
+      <Line />
+      <Avatar userImg={avatar} />
+      <AvatarWrapper />
+      <ContentWrapper>
+        <Text>
+          {tweets}&nbsp;TWEETS
+        </Text>
+        <Text>
+          {normalizeFollowers}&nbsp;FOLLOWERS
+        </Text>
+      <FollowButton type="button" following={follow} onClick={onClickButton} >
+        {follow ? 'FOLLOWING' : 'FOLLOW'}</FollowButton>
+      </ContentWrapper>
+    </UserWrapper>
   )
 };
 

@@ -29,14 +29,38 @@
     inset 0px 4.39163px 3.29372px #FBF8FF;
   --center-circle-border: 13.17px;
   /*  */
-  --avatar-size: 64px;
-  /*  */
-  /* https: //res.cloudinary.com/dyaylbzox/image/upload/v1677780127/TechTestGoIT/picture2in1_tqf2wb.png */
-  /* https: //res.cloudinary.com/dyaylbzox/image/upload/v1677780127/TechTestGoIT/goit-logo_mfsiqb.png */
-  /* https: //res.cloudinary.com/dyaylbzox/image/upload/v1677780127/TechTestGoIT/border_as0lbj.png */
-  /*  */
-  /* https: //res.cloudinary.com/dyaylbzox/image/upload/v1677780585/TechTestGoIT/Hansel_drkeuf.png */
-  /*  */
+  --avatar-size: 72px;
+  --avatar-logo: url("https://res.cloudinary.com/dyaylbzox/image/upload/v1677783966/TechTestGoIT/goit-logo_wvvwbd.png");
+  --avatar-picture: url("https://res.cloudinary.com/dyaylbzox/image/upload/v1677780127/TechTestGoIT/picture2in1_tqf2wb.png");
+  --avatar-border: url("https://res.cloudinary.com/dyaylbzox/image/upload/v1677787277/TechTestGoIT/border_hxfmlb.png");
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* .link {
+  text-decoration: none;
+  font-family: inherit;
+  display: inline-block;
+} */
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6, */
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -47,3 +71,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */

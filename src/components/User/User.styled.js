@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const UserWrapper = styled.div`
+export const UserWrapper = styled.li`
   position: relative;
   width: var(--user-box-width);
   height: var(--user-box-height);
@@ -19,7 +19,7 @@ export const Logo = styled.div`
   border: none;
   outline: none;
   opacity: 0.3;
-  background: url(${({ logoImg }) => logoImg});
+  background: var(--avatar-logo);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -35,7 +35,7 @@ export const Picture = styled.div`
   transform: translate(-50%, 0);
   border: none;
   outline: none;
-  background: url(${({ picture }) => picture});
+  background: var(--avatar-picture);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -64,7 +64,7 @@ export const Avatar = styled.div`
   background-color: var(--color-violet);
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: contain;
+  background-size: contain;
 `;
 
 export const AvatarWrapper = styled.div`
@@ -76,9 +76,8 @@ export const AvatarWrapper = styled.div`
   top: var(--top-section);
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(${({ border }) => border});
+  background-image: var(--avatar-border);
 `;
-
 export const ContentWrapper = styled.div`
   position: absolute;
   bottom: 36px;
