@@ -1,7 +1,7 @@
 // import { useState } from "react";
 import { Avatar, AvatarWrapper, FollowButton, Line, Logo, Picture, Text, ContentWrapper, UserWrapper } from "./User.styled";
 
-const User = ({user, onClickButton}) => {
+const User = ({ user, onClickButton }) => {
   const { tweets, followers, avatar, follow } = user;
 
   const normalizeFollowers = new Intl.NumberFormat("en-US").format(followers);

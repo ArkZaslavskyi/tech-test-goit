@@ -29,8 +29,10 @@ function App() {
   const handleClick = (id) => {
     const newUsers = [...users];
     const user = newUsers.find((user) => user.id === id);
+
     user.followers = !user.follow ? user.followers + 1 : user.followers - 1;
     user.follow = !user.follow;
+
     setUsers(newUsers);
   };
 

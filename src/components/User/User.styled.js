@@ -11,7 +11,6 @@ export const UserWrapper = styled.li`
 
 export const Logo = styled.div`
   position: absolute;
-  /* display: block; */
   width: 76px;
   height: 22px;
   top: 20px;
@@ -19,7 +18,7 @@ export const Logo = styled.div`
   border: none;
   outline: none;
   opacity: 0.3;
-  background: var(--avatar-logo);
+  background: var(--user-box-logo);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -27,7 +26,6 @@ export const Logo = styled.div`
 
 export const Picture = styled.div`
   position: absolute;
-  /* display: block; */
   width: 308px;
   height: 168px;
   top: 28px;
@@ -35,7 +33,7 @@ export const Picture = styled.div`
   transform: translate(-50%, 0);
   border: none;
   outline: none;
-  background: var(--avatar-picture);
+  background: var(--user-box-picture);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -56,7 +54,6 @@ export const Avatar = styled.div`
   width: var(--avatar-size);
   height: var(--avatar-size);
   border-radius: 50%;
-  /* box-shadow: var(--center-circle-shadow); */
   top: var(--top-section);
   left: 50%;
   transform: translate(-50%, -50%);
@@ -121,9 +118,3 @@ export const FollowButton = styled.button`
     opacity: 0.85;
   }
 `;
-/**
-  --button-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
-
-
-* 
- */
